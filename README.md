@@ -1,4 +1,4 @@
-# Hotel Booking Analytics Dashboard – Power BI Report on Guest Patterns & Revenue Drivers
+<h1 align="center">Hotel Booking Analytics Dashboard – Power BI Report on Guest Patterns & Revenue Drivers</h1>
 
 This solo-developed **Power BI dashboard** was built under a **tight 2-day deadline** as part of a graduate-level *Visualization Challenge*. While completing the assignment, I also **assisted multiple classmates** with Power BI best practices, DAX logic, and star-schema design—demonstrating leadership and technical fluency under pressure.
 
