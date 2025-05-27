@@ -15,7 +15,7 @@ To analyze hotel booking behavior and cancellations and deliver actionable busin
 ## 📁 Project Scope
 
 - **Timeline**: Completed in 2 days  
-- **Peer Collaboration**: Guided peers in building star schemas, calculated fields, and Power BI visuals  
+- **Peer Collaboration**: Guided peers in building star schemas, calculated fields, and Power BI visuals whilst working on own project 
 - **Dataset**: `hotel_bookings_viz.csv` (~119,390 rows, 32 columns)  
 - **Modeling**:  
   - Built a **star schema** with 5 dimension tables, 1 fact table, and a calendar table using `List.Dates()`  
