@@ -31,6 +31,19 @@ To analyze hotel booking behavior and cancellations and deliver actionable busin
 
 ---
 
+## 📁 Project Structure
+
+- `Datasets/`  
+  - `hotel_bookings_viz.csv` – cleaned hotel booking data (~119K rows × 32 columns) used for modeling and dashboarding
+
+- `Outputs/`  
+  - `A1 - Visualization Challenge by Awale Abdi-.pbix` – full Power BI report file containing:
+    - Star schema model (1 fact table, 5 dimension tables, calendar table)
+    - 3 interactive dashboards with slicers, custom DAX, and drill-throughs
+    - Embedded stakeholder-ready video presentation (~7 mins)
+
+---
+
 ## 🧠 Key Findings from Dashboard Narratives
 
 **Dashboard 1 – Cancellation Patterns**  
