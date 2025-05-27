@@ -34,7 +34,7 @@ To analyze hotel booking behavior and cancellations and deliver actionable busin
 ## 📁 Project Structure
 
 - `Datasets/`  
-  - `hotel_bookings_viz.csv` – cleaned hotel booking data (~119K rows × 32 columns) used for modeling and dashboarding
+  - `hotel_bookings_viz.csv` – original hotel booking data (~119K rows × 32 columns) used for modeling and dashboarding
 
 - `Outputs/`  
   - `A1 - Visualization Challenge by Awale Abdi-.pbix` – full Power BI report file containing:
