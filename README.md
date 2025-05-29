@@ -1,8 +1,9 @@
 <h1 align="center">Hotel Booking Analytics Dashboard – Power BI Report on Guest Patterns & Revenue Drivers</h1>
 
-This solo-developed **Power BI dashboard** was built under a **tight 2-day deadline** for a graduate-level *Visualization Challenge*. While completing the assignment, I also **mentored multiple classmates**, explaining Power BI best practices, DAX logic, and star-schema modeling—demonstrating both **technical expertise** and **leadership under pressure**.
+This solo-developed **Power BI dashboard** was built under a **tight 2-day deadline** for a graduate-level *Visualization Challenge*, taught by a current **Senior Director of AI & Product at Oracle** and former **Head of NLP at AWS**. While completing the assignment, I also **mentored multiple classmates**, explaining Power BI best practices, DAX logic, and star-schema modeling—demonstrating both **technical expertise** and **leadership under pressure**.
 
 Using the `hotel_bookings_viz.csv` dataset (~119K rows × 32 columns, 16MB), I designed a **star-schema data model**, created **custom KPIs using DAX**, and built **three interactive dashboards** that uncover root causes of cancellations and revenue loss. The final submission earned a **97/100**, with top marks for insight generation, data storytelling, and dashboard clarity—delivered through a concise **7-minute executive video presentation** tailored to stakeholders.
+
 
 ---
 
