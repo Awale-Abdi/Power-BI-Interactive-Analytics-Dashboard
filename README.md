@@ -5,13 +5,9 @@ This solo-developed **Power BI dashboard** was built under a **tight 2-day deadl
 Using the `hotel_bookings_viz.csv` dataset (~119K rows × 32 columns, 16MB), I designed a **star-schema data model**, created **custom KPIs using DAX**, and built **three interactive dashboards** that uncover root causes of cancellations and revenue loss. The final submission earned a **97/100**, with top marks for insight generation, data storytelling, and dashboard clarity—delivered through a concise **7-minute executive video presentation** tailored to stakeholders.
 
 
----
-
 ## 🎯 Objective
 
 To analyze hotel booking behavior and cancellations and deliver actionable business recommendations using Power BI, DAX, and Power Query—framed through interactive, executive-friendly dashboards.
-
----
 
 ## 📁 Project Scope
 
@@ -30,8 +26,6 @@ To analyze hotel booking behavior and cancellations and deliver actionable busin
   - Converted binary fields into readable formats  
   - Corrected data types and handled outliers (e.g., 0 adults, 9 babies)
 
----
-
 ## 📁 Project Structure
 
 - `Datasets/`  
@@ -42,8 +36,6 @@ To analyze hotel booking behavior and cancellations and deliver actionable busin
     - Star schema model (1 fact table, 5 dimension tables, calendar table)
     - 3 interactive dashboards with slicers, custom DAX, and drill-throughs
     - Embedded stakeholder-ready video presentation (~7 mins)
-
----
 
 ## 🧠 Key Findings from Dashboard Narratives
 
@@ -67,8 +59,6 @@ To analyze hotel booking behavior and cancellations and deliver actionable busin
 - Shorter lead times reduce cancellations, especially among couples  
 - Suggested better direct booking incentives, room repricing, and stricter cancellation rules
 
----
-
 ## 📊 Tools & Techniques Used
 
 - 📈 **Power BI** – Report development, dashboard design, and DAX  
@@ -77,15 +67,11 @@ To analyze hotel booking behavior and cancellations and deliver actionable busin
 - 🔗 **Star Schema Modeling** – 1 Fact Table + 5 Dimensions + Calendar Table  
 - 🎥 **Presentation Video** – 6-minute walkthrough, embedded into the report
 
----
-
 ## 📝 Instructor Feedback
 
 - “Excellent submission. Good storytelling and insights.”  
 - “Great identification of high-risk agents and segments. Clean visuals.”  
 - “Be mindful of filtering out key data like Portugal—it may hide trends.”
-
----
 
 ## 🧠 Recommendations Summary
 
@@ -94,8 +80,6 @@ To analyze hotel booking behavior and cancellations and deliver actionable busin
 - Tailor marketing campaigns for **Western European couples**  
 - Audit **Agent 9** and reprice **high-ADR rooms** with cancellation issues  
 - Introduce **flexible booking windows, early bird deals**, and pre-arrival engagement  
-
----
 
 ### **Contact Me**
 
