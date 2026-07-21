@@ -247,7 +247,7 @@ A1 - Visualization Challenge by Awale Abdi.pbix
 
 to interact directly with the dashboards and explore the complete Business Intelligence workflow.
 
-# 📬 Contact
+# 📬 Contact Me
 
 **Email**
 
