@@ -204,8 +204,7 @@ Datasets/
     hotel_bookings_viz.csv
 
 Outputs/
-    A1 - Visualization Challenge by Awale Abdi.pbix
-    Executive Dashboard Walkthrough.mp4
+    A1 - Visualization Challenge by Awale Abdi.pbix (contains link to Executive Dashboard Walkthrough on YouTube)
 ```
 
 # 📋 Replicating the Project
