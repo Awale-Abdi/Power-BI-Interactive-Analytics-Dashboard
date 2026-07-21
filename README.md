@@ -2,7 +2,7 @@
 
 This project showcases an **end-to-end Business Intelligence workflow** built using approximately **119,000 hotel booking records**. I developed it to demonstrate enterprise-scale data preparation, dimensional modeling, DAX development, KPI creation, customer analytics, dashboard design, and executive reporting.
 
-Although the project uses **hotel booking data** as its case study, the Business Intelligence techniques applied throughout—including customer segmentation, revenue analysis, cancellation analysis, dimensional modeling, and interactive dashboard development—are broadly transferable to hospitality, retail, finance, healthcare, operations, and other industries requiring performance reporting and decision support.
+Although the project uses **hotel booking data** as its case study, the Business Intelligence techniques applied throughout such as customer segmentation, revenue analysis, cancellation analysis, dimensional modeling, and interactive dashboard development are broadly transferable to hospitality, retail, finance, healthcare, operations, and other industries requiring performance reporting and decision support.
 
 Using **Power BI**, **Power Query**, DAX, and star-schema modeling, I transformed raw booking data into interactive executive dashboards that uncover booking behavior, revenue drivers, cancellation trends, and operational opportunities.
 
