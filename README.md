@@ -112,8 +112,6 @@ Built three interactive executive dashboards focused on:
 - DAX-driven KPIs provided executive-level visibility into revenue performance and cancellation trends.
 - Dimensional modeling significantly improved analytical flexibility and reporting performance.
 
----
-
 ## 📈 Analytical Recommendations
 
 - Encourage direct bookings to reduce OTA-related cancellations.
@@ -122,8 +120,6 @@ Built three interactive executive dashboards focused on:
 - Review high-risk travel agents and booking channels.
 - Optimize pricing strategies for premium room categories.
 - Introduce flexible cancellation policies and proactive customer engagement.
-
----
 
 ## 🛠️ Technical Skills Demonstrated
 
