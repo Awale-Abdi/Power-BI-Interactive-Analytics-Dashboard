@@ -1,55 +1,75 @@
-<h1 align="center">Business Intelligence & Customer Analytics | Hotel Booking Performance Dashboard with Power BI</h1>
+<h1 align="center">Business Intelligence & Customer Analytics | Interactive Power BI Dashboard</h1>
 
-This project showcases an **end-to-end Business Intelligence workflow** built using approximately **119,000 hotel booking records**. I developed it to demonstrate enterprise-scale data preparation, dimensional modeling, KPI development, DAX calculations, dashboard design, customer analytics, and executive reporting.
+This project showcases an **end-to-end Business Intelligence workflow** built using approximately **119,000 hotel booking records**. I developed it to demonstrate enterprise-scale data preparation, dimensional modeling, DAX development, KPI creation, customer analytics, dashboard design, and executive reporting.
 
-Although the project uses **hotel booking data** as its case study, the Business Intelligence techniques I apply, such as data modeling, KPI development, customer segmentation, revenue analysis, cancellation analysis, and interactive dashboard design, are broadly transferable to hospitality, retail, healthcare, finance, operations, and other industries requiring performance reporting and decision support.
+Although the project uses **hotel booking data** as its case study, the Business Intelligence techniques applied throughout—including customer segmentation, revenue analysis, cancellation analysis, dimensional modeling, and interactive dashboard development—are broadly transferable to hospitality, retail, finance, healthcare, operations, and other industries requiring performance reporting and decision support.
 
-Using **Power BI**, **Power Query**, DAX, and dimensional modeling, I transformed raw booking data into interactive executive dashboards that identify revenue drivers, customer behavior patterns, booking trends, and operational opportunities.
+Using **Power BI**, **Power Query**, DAX, and star-schema modeling, I transformed raw booking data into interactive executive dashboards that uncover booking behavior, revenue drivers, cancellation trends, and operational opportunities.
 
-As an additional challenge, I independently completed the entire project within **two days** while mentoring classmates on star-schema modeling, DAX, and dashboard development. The final submission earned **97/100** for its analytical insights, storytelling, and dashboard design **from my professor at the time who is currently the Vice President of AI at Oracle.**
+As an additional challenge, I independently completed the project within **two days** while mentoring classmates on dimensional modeling, DAX, and dashboard development. The final submission earned **97/100** for its analytical insights, storytelling, and dashboard design **from my professor at the time who is currently the Vice President of AI at Oracle.**
 
-## 💼 Analytical Goals
 
-This project focuses on applying Business Intelligence and data visualization techniques to identify the factors influencing hotel booking performance, cancellations, customer behavior, and revenue generation.
+# 🎥 Executive Dashboard Walkthrough
 
-The primary goals were to:
+Alongside the interactive Power BI report, the repository includes a concise **7-minute executive presentation** designed for non-technical stakeholders.
+
+Rather than requiring viewers to explore every dashboard manually, the walkthrough summarizes:
+
+- Business problem and analytical objectives
+- Data preparation and dimensional modeling
+- KPI development using DAX
+- Dashboard walkthrough
+- Customer behavior analysis
+- Cancellation trends
+- Revenue drivers
+- Operational insights
+- Business recommendations
+
+The presentation demonstrates the ability to communicate complex analytical findings clearly and translate dashboard insights into executive-level decision support.
+
+# 💼 Analytical Goals
+
+This project applies Business Intelligence techniques to identify the factors influencing hotel booking performance, customer behavior, cancellations, and revenue generation.
+
+The primary objectives were to:
 
 - Prepare and model booking data for Business Intelligence reporting
-- Analyze booking cancellations and revenue loss
-- Identify customer segments and behavioral patterns
-- Develop interactive executive dashboards using Power BI
-- Build custom KPIs using DAX
+- Analyze cancellation behavior and revenue loss
+- Identify customer segments and booking patterns
+- Develop executive dashboards for interactive analysis
+- Build reusable KPIs using DAX
 - Translate analytical findings into actionable business recommendations
 
-## 🏗️ Solution Architecture
+
+# 🏗️ Solution Architecture
 
 #### Business Intelligence Workflow
 
 - Data preparation
 - Power Query transformation
-- Star schema modeling
+- Star-schema modeling
 - Calendar table generation
 - DAX development
 - KPI creation
-- Dashboard development
+- Interactive dashboard design
 - Executive reporting
 
 #### Data
 
 - **Dataset:** Hotel Booking Demand Dataset
-- **Size:** ~119,390 booking records
-- **Features:** 32 variables
-- **Storage Format:** CSV
+- **Records:** ~119,390
+- **Features:** 32
+- **Format:** CSV
 
 #### Data Preparation
 
-Performed structured data preparation by:
+Data preparation included:
 
 - Cleaning booking records
 - Removing redundant attributes
 - Correcting data types
-- Handling invalid and outlier observations
-- Transforming categorical variables into business-friendly formats
+- Handling invalid observations and outliers
+- Creating business-friendly categorical fields
 - Preparing dimensional tables for analytical modeling
 
 #### Data Modeling
@@ -59,124 +79,125 @@ Designed an enterprise-style dimensional model consisting of:
 - 1 Fact Table
 - 5 Dimension Tables
 - Calendar Table using **List.Dates()**
-- Star Schema relationships optimized for Power BI reporting
+- Optimized Star Schema relationships
 
 #### KPI Development
 
-Developed custom DAX measures to evaluate:
+Custom DAX measures were created to evaluate:
 
 - Cancellation Rate
 - Average Daily Rate (ADR)
+- Revenue
 - Lead Time
 - Special Request Frequency
-- Revenue by Customer Segment
-- Revenue by Hotel Type
-- Revenue by Room Type
+- Booking Channel Performance
+- Customer Segment Performance
 
-### Dashboard Development
+#### Dashboard Development
 
-Built three interactive executive dashboards focused on:
+Three interactive dashboards were developed covering:
 
-- Cancellation behavior
-- Customer demographics
-- Revenue performance
-- Booking trends
-- Operational decision support
+- Cancellation Analysis
+- Customer Analytics
+- Revenue Performance
+- Operational Performance
+- Booking Trends
 
-## 📊 Analytical Insights
+# 📊 Analytical Insights
 
 #### Cancellation Analysis
 
 - Online Travel Agencies (OTAs) generated the highest cancellation rates.
-- New guests cancelled significantly more often than repeat customers.
-- Customers submitting more special requests demonstrated stronger booking commitment.
-- Western European markets contributed disproportionately to booking cancellations.
+- New guests cancelled significantly more frequently than returning customers.
+- Guests making more special requests demonstrated stronger booking commitment.
+- Western European markets generated the largest share of cancellations.
 
 #### Customer & Revenue Analysis
 
-- Couples represented the largest source of cancellation-related revenue loss.
-- High-value markets such as France, Italy, and Brazil experienced substantial financial impact.
-- Peak-season cancellations produced the greatest revenue losses.
+- Couples represented the greatest source of cancellation-related revenue loss.
+- High-value markets including France, Italy, and Brazil experienced substantial financial losses.
+- Peak-season cancellations produced the largest revenue impact.
 
 #### Operational Analysis
 
 - Agent 9 generated unusually high cancellation activity.
-- High-ADR room types experienced the greatest revenue leakage.
+- Premium room categories produced the greatest revenue leakage.
 - City hotels attracted significantly more couple bookings than resort hotels.
 - Shorter booking lead times generally reduced cancellation rates.
 
-### Quantitative Analysis
+#### Business Intelligence Outcomes
 
 - Customer segmentation revealed meaningful behavioral differences across booking channels.
 - Interactive dashboards enabled rapid identification of operational bottlenecks.
-- DAX-driven KPIs provided executive-level visibility into revenue performance and cancellation trends.
-- Dimensional modeling significantly improved analytical flexibility and reporting performance.
+- DAX-driven KPIs provided executive visibility into performance metrics.
+- Dimensional modeling significantly improved analytical flexibility and dashboard performance.
 
-## 📈 Analytical Recommendations
+# 📈 Analytical Recommendations
 
-- Encourage direct bookings to reduce OTA-related cancellations.
-- Develop loyalty programs targeting repeat guests.
-- Personalize marketing campaigns toward high-value customer segments.
-- Review high-risk travel agents and booking channels.
-- Optimize pricing strategies for premium room categories.
-- Introduce flexible cancellation policies and proactive customer engagement.
+- Encourage direct bookings to reduce OTA cancellations.
+- Expand loyalty programs targeting repeat guests.
+- Personalize campaigns for high-value customer segments.
+- Review high-risk booking agents and channels.
+- Optimize pricing for premium room categories.
+- Introduce flexible booking policies and proactive customer engagement.
 
-## 🛠️ Technical Skills Demonstrated
+# 🛠️ Technical Skills Demonstrated
 
-### Business Intelligence
+#### Business Intelligence
 
 - Power BI
-- Dashboard Development
+- Interactive Dashboard Development
 - Executive Reporting
 - KPI Development
 
-### Data Modeling
+#### Data Modeling
 
 - Star Schema
 - Fact & Dimension Modeling
 - Calendar Tables
 - Relational Modeling
 
-### Data Transformation
+#### Data Transformation
 
 - Power Query
 - ETL
 - Data Cleaning
 - Data Validation
 
-### DAX
+#### DAX
 
 - Calculated Measures
 - Calculated Columns
 - Time Intelligence
 - KPI Development
 
-### Data Analysis
+#### Data Analysis
 
-- Customer Segmentation
+- Customer Analytics
 - Revenue Analysis
 - Cancellation Analysis
+- Customer Segmentation
 - Exploratory Data Analysis (EDA)
-- Business Intelligence
 
-## 💡 What This Project Demonstrates
+# 💡 What This Project Demonstrates
 
 This project demonstrates the ability to independently design and deliver an end-to-end Business Intelligence solution using enterprise-scale booking data.
 
 Specifically, it showcases proficiency in:
 
 - Business Intelligence
-- Power BI Dashboard Development
-- Data Modeling
+- Interactive Dashboard Development
+- Power BI
 - Power Query
 - DAX
-- KPI Development
+- Data Modeling
 - Customer Analytics
 - Revenue Analysis
+- KPI Development
 - Executive Reporting
-- Translating analytical findings into actionable business insights
+- Communicating analytical insights to technical and non-technical stakeholders
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 ```text
 Datasets/
@@ -184,25 +205,28 @@ Datasets/
 
 Outputs/
     A1 - Visualization Challenge by Awale Abdi.pbix
+    Executive Dashboard Walkthrough.mp4
 ```
 
-## 📋 Replicating the Project
+# 📋 Replicating the Project
 
 #### Clone the Repository
 
 ```bash
-git clone https://github.com/Awale-Abdi/Business-Intelligence-Customer-Analytics-PowerBI.git
+git clone https://github.com/Awale-Abdi/Power-BI-Interactive-Analytics-Dashboard.git
 ```
 
-#### Open the Project
+#### Explore the Repository
 
 The repository includes:
 
 - Original dataset
 - Complete Power BI report
-- Star schema data model
+- Star-schema data model
 - Interactive dashboards
-- Embedded executive presentation
+- Executive dashboard walkthrough (~7 minutes)
+
+For the quickest overview of the project, begin with the executive presentation before exploring the Power BI report.
 
 Open:
 
@@ -210,15 +234,21 @@ Open:
 Outputs/
 ```
 
-Then launch:
+Then review:
+
+```text
+Executive Dashboard Walkthrough.mp4
+```
+
+or launch:
 
 ```text
 A1 - Visualization Challenge by Awale Abdi.pbix
 ```
 
-Explore the interactive dashboards to review the complete Business Intelligence workflow, including data preparation, dimensional modeling, DAX calculations, KPI development, customer segmentation, and executive reporting.
+to interact directly with the dashboards and explore the complete Business Intelligence workflow.
 
-## 📬 Contact Me
+# 📬 Contact
 
 **Email**
 
