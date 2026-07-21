@@ -8,8 +8,6 @@ Using **Power BI**, **Power Query**, DAX, and dimensional modeling, I transforme
 
 As an additional challenge, I independently completed the entire project within **two days** while mentoring classmates on star-schema modeling, DAX, and dashboard development. The final submission earned **97/100** for its analytical insights, storytelling, and dashboard design **from my professor at the time who is currently the Vice President of AI at Oracle.**
 
----
-
 ## 💼 Analytical Goals
 
 This project focuses on applying Business Intelligence and data visualization techniques to identify the factors influencing hotel booking performance, cancellations, customer behavior, and revenue generation.
