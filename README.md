@@ -220,9 +220,7 @@ A1 - Visualization Challenge by Awale Abdi.pbix
 
 Explore the interactive dashboards to review the complete Business Intelligence workflow, including data preparation, dimensional modeling, DAX calculations, KPI development, customer segmentation, and executive reporting.
 
----
-
-## 📬 Contact
+## 📬 Contact Me
 
 **Email**
 
