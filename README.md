@@ -159,8 +159,6 @@ Built three interactive executive dashboards focused on:
 - Exploratory Data Analysis (EDA)
 - Business Intelligence
 
----
-
 ## 💡 What This Project Demonstrates
 
 This project demonstrates the ability to independently design and deliver an end-to-end Business Intelligence solution using enterprise-scale booking data.
