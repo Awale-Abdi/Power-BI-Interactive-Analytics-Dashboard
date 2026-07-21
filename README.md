@@ -1,87 +1,239 @@
-<h1 align="center">Hotel Booking Analytics Dashboard – Power BI Report on Guest Patterns & Revenue Drivers</h1>
+<h1 align="center">Business Intelligence & Customer Analytics | Hotel Booking Performance Dashboard with Power BI</h1>
 
-This solo-developed **Power BI dashboard** was built under a **tight 2-day deadline** for a graduate-level *Visualization Challenge*, taught by a current **Senior Director of AI & Product at Oracle** and former **Head of NLP at AWS**. While completing the assignment, I also **mentored multiple classmates**, explaining Power BI best practices, DAX logic, and star-schema modeling—demonstrating both **technical expertise** and **leadership under pressure**.
+This project showcases an **end-to-end Business Intelligence workflow** built using approximately **119,000 hotel booking records**. I developed it to demonstrate enterprise-scale data preparation, dimensional modeling, KPI development, DAX calculations, dashboard design, customer analytics, and executive reporting.
 
-Using the `hotel_bookings_viz.csv` dataset (~119K rows × 32 columns, 16MB), I designed a **star-schema data model**, created **custom KPIs using DAX**, and built **three interactive dashboards** that uncover root causes of cancellations and revenue loss. The final submission earned a **97/100**, with top marks for insight generation, data storytelling, and dashboard clarity—delivered through a concise **7-minute executive video presentation** tailored to stakeholders.
+Although the project uses **hotel booking data** as its case study, the Business Intelligence techniques I apply, such as data modeling, KPI development, customer segmentation, revenue analysis, cancellation analysis, and interactive dashboard design, are broadly transferable to hospitality, retail, healthcare, finance, operations, and other industries requiring performance reporting and decision support.
 
+Using **Power BI**, **Power Query**, DAX, and dimensional modeling, I transformed raw booking data into interactive executive dashboards that identify revenue drivers, customer behavior patterns, booking trends, and operational opportunities.
 
-## 🎯 Objective
+As an additional challenge, I independently completed the entire project within **two days** while mentoring classmates on star-schema modeling, DAX, and dashboard development. The final submission earned **97/100** for its analytical insights, storytelling, and dashboard design **from my professor at the time who is currently the Vice President of AI at Oracle.**
 
-To analyze hotel booking behavior and cancellations and deliver actionable business recommendations using Power BI, DAX, and Power Query—framed through interactive, executive-friendly dashboards.
+---
 
-## 📁 Project Scope
+## 💼 Analytical Goals
 
-- **Timeline**: Completed in 2 days  
-- **Peer Collaboration**: Guided peers in building star schemas, calculated fields, and Power BI visuals whilst working on own project 
-- **Dataset**: `hotel_bookings_viz.csv` (~119,390 rows, 32 columns)  
-- **Modeling**:  
-  - Built a **star schema** with 5 dimension tables, 1 fact table, and a calendar table using `List.Dates()`  
-  - Created **DAX-calculated measures and columns** to track:
-    - Cancellation Rate
-    - Lead Time Impact
-    - Special Request Frequency
-    - ADR by Month, Hotel Type, and Room Type
-- **Data Cleaning**:  
-  - Removed redundant columns  
-  - Converted binary fields into readable formats  
-  - Corrected data types and handled outliers (e.g., 0 adults, 9 babies)
+This project focuses on applying Business Intelligence and data visualization techniques to identify the factors influencing hotel booking performance, cancellations, customer behavior, and revenue generation.
 
-## 📁 Project Structure
+The primary goals were to:
 
-- `Datasets/`  
-  - `hotel_bookings_viz.csv` – original hotel booking data (~119K rows × 32 columns) used for modeling and dashboarding
+- Prepare and model booking data for Business Intelligence reporting
+- Analyze booking cancellations and revenue loss
+- Identify customer segments and behavioral patterns
+- Develop interactive executive dashboards using Power BI
+- Build custom KPIs using DAX
+- Translate analytical findings into actionable business recommendations
 
-- `Outputs/`  
-  - `A1 - Visualization Challenge by Awale Abdi-.pbix` – full Power BI report file containing:
-    - Star schema model (1 fact table, 5 dimension tables, calendar table)
-    - 3 interactive dashboards with slicers, custom DAX, and drill-throughs
-    - Embedded stakeholder-ready video presentation (~7 mins)
+## 🏗️ Solution Architecture
 
-## 🧠 Key Findings from Dashboard Narratives
+#### Business Intelligence Workflow
 
-**Dashboard 1 – Cancellation Patterns**  
-- **Online Travel Agencies (OTA)** show the highest cancellation rates  
-- **Western European markets** (France, UK, Spain) have the most cancellations  
-- **Special requests inversely correlate with cancellations** (more requests = more commitment)  
-- **New guests** cancel far more often than repeat guests  
-- **Portugal** skewed the data due to its dominance—removing it revealed deeper patterns  
+- Data preparation
+- Power Query transformation
+- Star schema modeling
+- Calendar table generation
+- DAX development
+- KPI creation
+- Dashboard development
+- Executive reporting
 
-**Dashboard 2 – Customer Demographics & Financial Impact**  
-- **Couples** (regardless of children) are the top source of lost revenue  
-- High-revenue markets like **Italy, France, and Brazil** also suffer from high cancellation losses  
-- Summer months show peak loss due to couple-driven cancellations  
-- Suggested targeted loyalty programs, romantic getaway bundles, and more flexible terms  
+#### Data
 
-**Dashboard 3 – Room Types & Agent Behavior**  
-- **Agent 9** triggered unusually high cancellations  
-- **Rooms A, D, F, E, and G** had high ADRs but lost the most revenue  
-- **City hotels** are more popular among couples than resorts  
-- Shorter lead times reduce cancellations, especially among couples  
-- Suggested better direct booking incentives, room repricing, and stricter cancellation rules
+- **Dataset:** Hotel Booking Demand Dataset
+- **Size:** ~119,390 booking records
+- **Features:** 32 variables
+- **Storage Format:** CSV
 
-## 📊 Tools & Techniques Used
+#### Data Preparation
 
-- 📈 **Power BI** – Report development, dashboard design, and DAX  
-- 🧼 **Power Query Editor** – Data shaping, ETL, and cleaning  
-- 🧩 **DAX** – Calculated measures and KPIs  
-- 🔗 **Star Schema Modeling** – 1 Fact Table + 5 Dimensions + Calendar Table  
-- 🎥 **Presentation Video** – 6-minute walkthrough, embedded into the report
+Performed structured data preparation by:
 
-## 📝 Instructor Feedback
+- Cleaning booking records
+- Removing redundant attributes
+- Correcting data types
+- Handling invalid and outlier observations
+- Transforming categorical variables into business-friendly formats
+- Preparing dimensional tables for analytical modeling
 
-- “Excellent submission. Good storytelling and insights.”  
-- “Great identification of high-risk agents and segments. Clean visuals.”  
-- “Be mindful of filtering out key data like Portugal—it may hide trends.”
+#### Data Modeling
 
-## 🧠 Recommendations Summary
+Designed an enterprise-style dimensional model consisting of:
 
-- Incentivize repeat stays and special requests to reduce cancellations  
-- Investigate OTA policies and promote **direct booking via hotel website**  
-- Tailor marketing campaigns for **Western European couples**  
-- Audit **Agent 9** and reprice **high-ADR rooms** with cancellation issues  
-- Introduce **flexible booking windows, early bird deals**, and pre-arrival engagement  
+- 1 Fact Table
+- 5 Dimension Tables
+- Calendar Table using **List.Dates()**
+- Star Schema relationships optimized for Power BI reporting
 
-### **Contact Me**
+#### KPI Development
 
-- **Email**: Awaleiabdi@outlook.com  
-- **LinkedIn**: [linkedin.com/in/awale-abdi](https://www.linkedin.com/in/awale-abdi/)
+Developed custom DAX measures to evaluate:
+
+- Cancellation Rate
+- Average Daily Rate (ADR)
+- Lead Time
+- Special Request Frequency
+- Revenue by Customer Segment
+- Revenue by Hotel Type
+- Revenue by Room Type
+
+### Dashboard Development
+
+Built three interactive executive dashboards focused on:
+
+- Cancellation behavior
+- Customer demographics
+- Revenue performance
+- Booking trends
+- Operational decision support
+
+## 📊 Analytical Insights
+
+#### Cancellation Analysis
+
+- Online Travel Agencies (OTAs) generated the highest cancellation rates.
+- New guests cancelled significantly more often than repeat customers.
+- Customers submitting more special requests demonstrated stronger booking commitment.
+- Western European markets contributed disproportionately to booking cancellations.
+
+#### Customer & Revenue Analysis
+
+- Couples represented the largest source of cancellation-related revenue loss.
+- High-value markets such as France, Italy, and Brazil experienced substantial financial impact.
+- Peak-season cancellations produced the greatest revenue losses.
+
+#### Operational Analysis
+
+- Agent 9 generated unusually high cancellation activity.
+- High-ADR room types experienced the greatest revenue leakage.
+- City hotels attracted significantly more couple bookings than resort hotels.
+- Shorter booking lead times generally reduced cancellation rates.
+
+### Quantitative Analysis
+
+- Customer segmentation revealed meaningful behavioral differences across booking channels.
+- Interactive dashboards enabled rapid identification of operational bottlenecks.
+- DAX-driven KPIs provided executive-level visibility into revenue performance and cancellation trends.
+- Dimensional modeling significantly improved analytical flexibility and reporting performance.
+
+---
+
+## 📈 Analytical Recommendations
+
+- Encourage direct bookings to reduce OTA-related cancellations.
+- Develop loyalty programs targeting repeat guests.
+- Personalize marketing campaigns toward high-value customer segments.
+- Review high-risk travel agents and booking channels.
+- Optimize pricing strategies for premium room categories.
+- Introduce flexible cancellation policies and proactive customer engagement.
+
+---
+
+## 🛠️ Technical Skills Demonstrated
+
+### Business Intelligence
+
+- Power BI
+- Dashboard Development
+- Executive Reporting
+- KPI Development
+
+### Data Modeling
+
+- Star Schema
+- Fact & Dimension Modeling
+- Calendar Tables
+- Relational Modeling
+
+### Data Transformation
+
+- Power Query
+- ETL
+- Data Cleaning
+- Data Validation
+
+### DAX
+
+- Calculated Measures
+- Calculated Columns
+- Time Intelligence
+- KPI Development
+
+### Data Analysis
+
+- Customer Segmentation
+- Revenue Analysis
+- Cancellation Analysis
+- Exploratory Data Analysis (EDA)
+- Business Intelligence
+
+---
+
+## 💡 What This Project Demonstrates
+
+This project demonstrates the ability to independently design and deliver an end-to-end Business Intelligence solution using enterprise-scale booking data.
+
+Specifically, it showcases proficiency in:
+
+- Business Intelligence
+- Power BI Dashboard Development
+- Data Modeling
+- Power Query
+- DAX
+- KPI Development
+- Customer Analytics
+- Revenue Analysis
+- Executive Reporting
+- Translating analytical findings into actionable business insights
+
+## 📁 Repository Structure
+
+```text
+Datasets/
+    hotel_bookings_viz.csv
+
+Outputs/
+    A1 - Visualization Challenge by Awale Abdi.pbix
+```
+
+## 📋 Replicating the Project
+
+#### Clone the Repository
+
+```bash
+git clone https://github.com/Awale-Abdi/Business-Intelligence-Customer-Analytics-PowerBI.git
+```
+
+#### Open the Project
+
+The repository includes:
+
+- Original dataset
+- Complete Power BI report
+- Star schema data model
+- Interactive dashboards
+- Embedded executive presentation
+
+Open:
+
+```text
+Outputs/
+```
+
+Then launch:
+
+```text
+A1 - Visualization Challenge by Awale Abdi.pbix
+```
+
+Explore the interactive dashboards to review the complete Business Intelligence workflow, including data preparation, dimensional modeling, DAX calculations, KPI development, customer segmentation, and executive reporting.
+
+---
+
+## 📬 Contact
+
+**Email**
+
+Awaleiabdi@outlook.com
+
+**LinkedIn**
+
+https://www.linkedin.com/in/awale-abdi/
