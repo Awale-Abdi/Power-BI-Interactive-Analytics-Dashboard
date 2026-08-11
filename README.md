@@ -9,7 +9,7 @@ Using **Power BI**, **Power Query**, DAX, and star-schema modeling, I transforme
 As an additional challenge, I independently completed the project within **two days** while mentoring classmates on dimensional modeling, DAX, and dashboard development. The final submission earned **97/100** for its analytical insights, storytelling, and dashboard design **from my professor at the time who is currently the Vice President of AI at Oracle.**
 
 
-# 🎥 Executive Dashboard Walkthrough
+## 🎥 Executive Dashboard Walkthrough
 
 Alongside the interactive Power BI report, the repository includes a concise **7-minute executive presentation** designed for non-technical stakeholders.
 
@@ -27,7 +27,7 @@ Rather than requiring viewers to explore every dashboard manually, the walkthrou
 
 The presentation demonstrates the ability to communicate complex analytical findings clearly and translate dashboard insights into executive-level decision support.
 
-# 💼 Analytical Goals
+## 💼 Analytical Goals
 
 This project applies Business Intelligence techniques to identify the factors influencing hotel booking performance, customer behavior, cancellations, and revenue generation.
 
@@ -41,7 +41,7 @@ The primary objectives were to:
 - Translate analytical findings into actionable business recommendations
 
 
-# 🏗️ Solution Architecture
+## 🏗️ Solution Architecture
 
 #### Business Intelligence Workflow
 
@@ -103,7 +103,7 @@ Three interactive dashboards were developed covering:
 - Operational Performance
 - Booking Trends
 
-# 📊 Analytical Insights
+## 📊 Analytical Insights
 
 #### Cancellation Analysis
 
@@ -132,7 +132,7 @@ Three interactive dashboards were developed covering:
 - DAX-driven KPIs provided executive visibility into performance metrics.
 - Dimensional modeling significantly improved analytical flexibility and dashboard performance.
 
-# 📈 Analytical Recommendations
+## 📈 Analytical Recommendations
 
 - Encourage direct bookings to reduce OTA cancellations.
 - Expand loyalty programs targeting repeat guests.
@@ -141,7 +141,7 @@ Three interactive dashboards were developed covering:
 - Optimize pricing for premium room categories.
 - Introduce flexible booking policies and proactive customer engagement.
 
-# 🛠️ Technical Skills Demonstrated
+## 🛠️ Technical Skills Demonstrated
 
 #### Business Intelligence
 
@@ -179,7 +179,7 @@ Three interactive dashboards were developed covering:
 - Customer Segmentation
 - Exploratory Data Analysis (EDA)
 
-# 💡 What This Project Demonstrates
+## 💡 What This Project Demonstrates
 
 This project demonstrates the ability to independently design and deliver an end-to-end Business Intelligence solution using enterprise-scale booking data.
 
@@ -197,7 +197,7 @@ Specifically, it showcases proficiency in:
 - Executive Reporting
 - Communicating analytical insights to technical and non-technical stakeholders
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
 Datasets/
@@ -207,7 +207,7 @@ Outputs/
     A1 - Visualization Challenge by Awale Abdi.pbix (contains link to Executive Dashboard Walkthrough on YouTube)
 ```
 
-# 📋 Replicating the Project
+## 📋 Replicating the Project
 
 #### Clone the Repository
 
@@ -247,7 +247,7 @@ A1 - Visualization Challenge by Awale Abdi.pbix
 
 to interact directly with the dashboards and explore the complete Business Intelligence workflow.
 
-# 📬 Contact Me
+## 📬 Contact Me
 
 **Email**
 
