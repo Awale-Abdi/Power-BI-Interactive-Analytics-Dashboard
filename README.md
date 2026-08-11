@@ -43,16 +43,29 @@ The primary objectives were to:
 
 ## 🏗️ Solution Architecture
 
-#### Business Intelligence Workflow
+#### Workflow
 
-- Data preparation
-- Power Query transformation
-- Star-schema modeling
-- Calendar table generation
-- DAX development
-- KPI creation
-- Interactive dashboard design
-- Executive reporting
+```text
+Raw Parquet Datasets
+        ↓
+Amazon S3
+        ↓
+Power Query ETL
+        ↓
+Data Cleaning & Transformation
+        ↓
+Feature Engineering
+        ↓
+Dimensional Modeling
+        ↓
+Star Schema
+        ↓
+DAX & KPI Development
+        ↓
+Interactive Power BI Dashboards
+        ↓
+Executive Reporting
+```
 
 #### Data
 
